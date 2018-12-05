@@ -37,8 +37,9 @@ Both the TDR\_avalanche and TDR\_splitter connected:
 ----
 ## References
 Sadly, nothing interesting here. I came up with the splitter in my head at 4AM in bed.
+
 [Tweet with photos of the device in use](https://twitter.com/polasek_petr/status/1066757945915072512)
 
 ----
 ## Sidenotes
-The PCB uses coplanar waveguide designed for use on standard 1.5 mm FR-4 substrate with 35 um copper (double-sided). It is not very carefully designed and does not give perfect match, but as a prototype, its performance was sufficient. You can modify it for whatever frequency you want, just follow this rule: connect parallel to each of the terminal ports resistor equal to 2x the load impedance, the series resistors should be 4/3x the load impedance and don't forget to update the coplanar waveguide according to the desired impedance.
+The PCB uses coplanar waveguide designed for use on standard 1.5 mm FR-4 substrate with 35 um copper (double-sided). It is not very carefully designed and does not give perfect match, but as a prototype, its performance was sufficient. You can modify it for whatever impedance you want, just follow this rule: connect parallel to each of the terminal ports resistor equal to 2x the load impedance, the series resistors should be 4/3x the load impedance and don't forget to update the coplanar waveguide according to the desired impedance.
